@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+  <modelVersion>0.4.14</modelVersion>
+  <groupId>hadoop-lzo</groupId>
+  <artifactId>hadoop-lzo</artifactId>
+  <version>0.4.14</version>
+  <name>hadoop-lzo</name>
+</project>
