@@ -7,10 +7,8 @@ for dirname in `find . -type d`; do
 	continue
     fi
     
-    cd $dirname
-    jar_file=`ls *.jar`
-    pom_file=`ls *.pom`
+    jar_file=`ls $dirname/*.jar`
+    pom_file=`ls $dirname/*.pom`
     echo "install $jar_file with pom $pom_file"
     mvn install:install-file -Dfile=$jar_file -DpomFile=$pom_file
-    cd $BASEDIR
 done
